@@ -2,8 +2,8 @@
 // Copyright (C) 2010 Tai Sakuma <sakuma@bnl.gov>
 #include "StjRunFastJet.h"
 
-#include <StjFourVecForJetFinder.h>
-#include <StjEtaToDetectorEta.h>
+#include <StJetMaker/StjFourVecForJetFinder.h>
+#include <StJetMaker/StjEtaToDetectorEta.h>
 
 #include <fastjet/PseudoJet.hh>
 #include <fastjet/ClusterSequence.hh>

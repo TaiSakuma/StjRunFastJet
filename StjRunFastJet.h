@@ -7,8 +7,8 @@
 //____________________________________________________________________________________________||
 #include <TObject.h>
 
-#include "StjFourVecList.h"
-#include "StjJetList.h"
+#include "StJetMaker/StjFourVecList.h"
+#include "StJetMaker/StjJetList.h"
 
 //____________________________________________________________________________________________||
 namespace fastjet {
