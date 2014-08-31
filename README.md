@@ -21,7 +21,7 @@ Run Autotools
 
 Configure (replace PREFIX with the path to which you want to install files, e.g., $HOME)
 
-    CPPFLAGS="-I(path to fast include files) -I(path to SetJetMakerTree include files" ./configure --prefix=PREFIX
+    CPPFLAGS="-I(path to fastjet include files) -I(path to SetJetMakerTree include files" ./configure --prefix=PREFIX
 
 Compile
 
