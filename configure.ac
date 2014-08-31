@@ -1,0 +1,20 @@
+# Copyright (C) 2010 Tai Sakuma <sakuma@bnl.gov>
+
+AC_INIT(StjRunFastJet, 1.0.1)
+AM_INIT_AUTOMAKE
+
+#AC_DISABLE_SHARED
+
+AC_PROG_CXX
+AC_PROG_CC
+AC_PROG_RANLIB
+AC_PROG_LIBTOOL
+
+ROOT_PATH(, AC_DEFUN(HAVE_ROOT))
+
+AC_LANG(C++)
+
+AC_CONFIG_FILES([
+	Makefile 
+	])
+AC_OUTPUT
